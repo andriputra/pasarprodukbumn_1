@@ -137,7 +137,7 @@ header ul.navbar-nav li a{
   font-size: 13px;
 }
 header ul.navbar-nav li a:hover{
-  color: #4976a0 !important;
+  color: #00abc5 !important;
 }
 header ul.navbar-nav li.lang{
   padding-right: 12px;
@@ -147,3 +147,362 @@ header ul.navbar-nav li.nav-item .fa{
   vertical-align: text-bottom;
   margin-right: 5px;
 }
+a{
+  color: #808080;
+}
+a:hover{
+  color: #00abc5;
+  text-decoration: none;
+}
+.section{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+h2.section-title{
+  font-size: 22px;
+  font-weight: 600;
+}
+.mb-10{
+  margin-bottom: 35px !important;
+}
+/* Slider */
+.home-slider{
+  margin-bottom: 90px;
+}
+.home-slider,
+.home-slider .item{
+  position: relative;
+}
+.home-slider .item .slider__description{
+  position: absolute;
+  top: 35%;
+  right: 8%;
+  background-color: rgba(0,153,204,0.3);
+  width: 40%;
+  padding: 18px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.home-slider .item .slider__description p{
+  margin-bottom: 0px;
+}
+.home-slider .item .slider__description p.title-desc{
+  font-size: 23px;
+  font-weight: 300;
+}
+.home-slider .item .slider__description h1.content-title{
+  font-size: 43px;
+  font-weight: 300;
+  margin-bottom: 35px;
+  position: relative;
+}
+.home-slider .item .slider__description h1.content-title::after{
+  content: '';
+  background: #00abc5;
+  height: 2px;
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+}
+.home-slider .item .slider__description p.desc{
+  font-size: 13px;
+  font-weight: 300;
+}
+/* End Slider */
+
+/* Pesan Tiket */
+.ticket-search {
+  position: absolute;
+  width: 100%;
+  bottom: -64px;
+  z-index: 999;
+}
+.ticket-search .nav-tabs{
+  border-bottom: none;
+}
+.ticket-search .nav-tabs .nav-link{
+  color: #ffffff;
+  border-bottom: none;
+  border: none;
+  width: 17%;
+  text-align: center;
+}
+.ticket-search .nav-tabs .nav-link:hover,
+.ticket-search .nav-tabs .nav-link.active{
+  border-bottom: none;
+}
+.ticket-search .nav-tabs .nav-link.active:hover{
+  color: #00abc5;
+}
+.ticket-search .nav-tabs .nav-link img{
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+  margin-right: 10px;
+}
+.nav-tabs .nav-link.plane,
+.nav-tabs .nav-link.train,
+.nav-tabs .nav-link.hotel{
+  background: #028094;
+  border-radius: 0px;
+  padding: 12px 16px;
+}
+.nav-tabs .nav-link.train{
+  background: #0099b1;
+}
+.nav-tabs .nav-link.hotel{
+  background: #00abc5;
+}
+.ticket-search .nav-tabs .nav-link.active img{
+  filter: none;
+}
+.ticket-search .nav-tabs .nav-link:hover{
+  color: #ffffff;
+}
+.nav-tabs .nav-link.active,
+.ticket-search .tab-content{
+  background: #f8f8f8;
+}
+.ticket-search .tab-content{
+  padding: 20px;
+}
+/* End Pesan Tiket */
+
+/*  Apps Banner*/
+.hand-apps{
+  padding-top: 40px;
+}
+.hand-apps .big-title{
+  color: #00abc5;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  font-size: 43px;
+  margin-bottom: 40px;
+}
+.hand-apps .info-apps{
+  margin-top: 100px;
+}
+.hand-apps .info-apps h2.section-title{
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.hand-apps .info-apps a img.google{
+  margin-right: 15px;
+}
+/*  End Apps Banner*/
+
+/* Middle banner */
+.banner img{
+  width: 100%;
+}
+/* End Middle banner */
+
+/* Deals Item */
+.deals .row{
+  margin-bottom: 20px;
+}
+.deals .deals-item img{
+  width: 100%;
+}
+.deals .deals-item a{
+  display: block;
+}
+.deals .deals-item a:hover{
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.38);
+  -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.38);
+  box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.38);
+}
+.deals h2.section-title{
+  margin-bottom: 0px;
+}
+.button-more{
+  text-align: right;
+}
+.button-more a{
+  display: inline-block;
+  padding: 5px 18px;
+  background: #00abc5;
+  color: #ffffff;
+  font-size: 12px;
+}
+.button-more a i.fa{
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+.button-more a:hover{
+  background: #808080;
+}
+.item-of{
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 40px;
+}
+/* End Deals Item */
+
+/* Partner List */
+.partner h2.section-title{
+  margin-bottom: 40px;
+}
+.partner .description p{
+  color: #808080;
+  margin-bottom: 10px;
+}
+.partner .description p strong{
+  color: #000000;
+}
+.partner-list li{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 10px 20px;
+}
+/* End Partner List */
+
+/* Tab */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px solid #00abc5;
+  color: #00abc5;
+}
+.nav-tabs .nav-link{
+  font-weight: 600;
+}
+.tab-content{
+  padding: 30px 0px;
+}
+.tab-content ul li{
+  margin-bottom: 10px;
+}
+.tab h2{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+/* End Tab */
+
+/* Footer */
+ul{
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+ul li{
+  margin-bottom: 5px;
+}
+.newsletter{
+  background: #f8f8f8;
+  padding: 30px 0px;
+}
+.newsletter label{
+  color: #333333;
+  font-size: 16px;
+}
+.newsletter .form-control{
+  height: 40px;
+  background: #ffffff;
+  padding: 10px 20px;
+  margin: 0px 20px;
+  border: none;
+  border-radius: 0px;
+  width: 45%;
+  font-size: 13px;
+}
+.newsletter button.btn-blue{
+  background: #00abc5;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  width: 20%;
+  height: 40px;
+}
+.newsletter button.btn-blue:hover{
+  background-color: #808080;
+}
+.socmed ul{
+  text-align: right;
+}
+.socmed ul li{
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+.socmed ul li a{
+  color: #808080;
+  font-size: 30px;
+}
+.socmed ul li a.fb:hover{
+  color: #1f2b89;
+}
+.socmed ul li a.tw:hover{
+  color: #7ccdef;
+}
+.socmed ul li a.ig:hover{
+  color: #190883;
+}
+.socmed ul li a.gp:hover{
+  color: #ff3e3e;
+}
+.socmed ul li a.yt:hover{
+  color: #d10707;
+}
+.widget-footer{
+  border-top: 1px solid #dbdbdb;
+  background-color: #eaeaea;
+  padding: 30px 0px;
+}
+.widget-item h2{
+  font-size: 14px;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  color: #333333;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 75%;
+}
+.widget-item p{
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #808080;
+}
+.widget-item a{
+  color: #808080;
+  font-size: 13px;
+}
+.widget-item a:hover{
+  color: #00abc5;
+  text-decoration: none;
+}
+.widget-item a i.fa{
+  margin-right: 12px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.widget-item a i.fa.fa-circle{
+  font-size: 5px;
+}
+.copyright{
+  background: #0099b1;
+  color: #ffffff;
+  padding: 25px 0px;
+}
+.copyright p{
+  margin-bottom: 0px;
+  line-height: 29px;
+  font-size: 14px;
+}
+.copyright img{
+  float: right;
+}
+/* End Footer */
