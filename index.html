@@ -34,7 +34,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
             <li class="nav-item active">
               <a class="nav-link" href="#">Bantuan</a>
             </li>
@@ -44,11 +44,68 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Keranjang</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Masuk</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Masuk</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <div class="header-dropdown">
+                  <h3>Log In ke Akun Anda</h3>
+                </div>
+                <div class="form-login">
+                  <form class="" action="" method="post">
+                    <div class="form-group">
+                      <label for="">Email atau no handphone</label>
+                      <input type="text" name="" value="" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Password</label>
+                      <a href="#" class="forgot">Lupa Password <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                      <input type="password" name="" value="" class="form-control">
+                    </div>
+                    <div class="button">
+                      <button type="submit" name="button" class="btn btn-blue">Log In</button>
+                      <div class="reg">
+                        <p class="ask">Belum punya akun?</p>
+                        <a href="#">Daftar <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="other-log">
+                  <p class="text-center">Atau masuk dengan:</p>
+                  <button type="button" name="button" class="btn btn-facebook">Facebook</button>
+                  <button type="button" name="button" class="btn btn-google">Google</button>
+                </div>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Daftar</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Daftar</a>
+              <div class="dropdown-menu dropdown-menu-right register" aria-labelledby="dropdownMenu">
+                <div class="header-dropdown">
+                  <h3>Gabung Sebagai Member</h3>
+                </div>
+                <div class="form-login">
+                  <form class="" action="" method="post">
+                    <label for="">Email</label>
+                    <div class="form-inline">
+                      <input type="email" name="" value="" class="form-control" placeholder="e.g email@example.com">
+                      <button type="submit" name="button" class="btn btn-blue">Register</button>
+                      <label for="">Data Anda dilindungi dan tidak akan disebarluaskan.</label>
+                    </div>
+                  </form>
+                </div>
+                <div class="other-log form-login">
+                  <p class="text-center">Sudah memiliki akun? <a href="#" class="forgot">Log In <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+                </div>
+                <div class="other-log bg-white">
+                  <p class="text-center">Dengan melakukan pendaftaran, saya setuju dengan <a href="#" class="forgot">Kebijakan Privasi dan Syarat & Ketentuan <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+                </div>
+                <div class="other-log text-left account-first">
+                  <a href="#"><img src="assets/img/fb-square.png" class="img-fluid"> Daftar melalui Facebook</a>
+                </div>
+                <div class="other-log text-left account-second">
+                  <a href="#"><img src="assets/img/gp-square.png" class="img-fluid"> Daftar melalui Google</a>
+                </div>
+              </div>
             </li>
             <li class="lang">
               <ul class="list-unstyled">
@@ -149,7 +206,7 @@
                     <i class="fa fa-calendar icon" aria-hidden="true"></i>
                   </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-12">
                   <div class="form-select">
                     <div class="form-group">
                       <label>Dewasa :</label>
@@ -173,7 +230,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-12">
                   <label for="">&nbsp;</label>
                   <button type="submit" name="button" class="btn btn-blue">CARI TIKET</button>
                 </div>
@@ -217,7 +274,7 @@
                     <i class="fa fa-calendar icon" aria-hidden="true"></i>
                   </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-12">
                   <div class="form-select">
                     <div class="form-group">
                       <label>Dewasa :</label>
@@ -241,7 +298,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-12">
                   <label for="">&nbsp;</label>
                   <button type="submit" name="button" class="btn btn-blue">CARI TIKET</button>
                 </div>
@@ -285,7 +342,7 @@
                     <i class="fa fa-calendar icon" aria-hidden="true"></i>
                   </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-12">
                   <div class="form-select">
                     <div class="form-group">
                       <label>Dewasa :</label>
@@ -309,7 +366,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2 col-6">
+                <div class="col-md-2 col-12">
                   <label for="">&nbsp;</label>
                   <button type="submit" name="button" class="btn btn-blue">CARI HOTEL</button>
                 </div>
@@ -647,11 +704,12 @@ $('.owl-carousel.slider__up_item').owlCarousel({
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav: false,
+            dots: false
         },
         600:{
             items:1,
-            nav:true
+            nav:false
         },
         1000:{
             items:1,
