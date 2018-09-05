@@ -167,7 +167,7 @@ h2.section-title{
 }
 /* Slider */
 .home-slider{
-  margin-bottom: 90px;
+  margin-bottom: 112px;
 }
 .home-slider,
 .home-slider .item{
@@ -211,13 +211,48 @@ h2.section-title{
   font-size: 13px;
   font-weight: 300;
 }
+.home-slider .owl-theme .owl-nav{
+  position: absolute;
+  top: 40%;
+  margin-top: 0px;
+  width: 100%;
+}
+.home-slider .owl-theme .owl-nav [class*=owl-],
+.home-slider .owl-theme .owl-nav [class*=owl-]:hover{
+  background-color: transparent;
+}
+.home-slider .owl-theme .owl-nav .owl-prev{
+  position: absolute;
+  left: 4%;
+}
+.home-slider .owl-theme .owl-nav .owl-next{
+  position: absolute;
+  right: 4%;
+}
+.home-slider .owl-theme .owl-nav .owl-next img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.home-slider .owl-theme .owl-dots{
+  position: absolute;
+  bottom: 16%;
+  right: 8%;
+}
+.home-slider .owl-theme .owl-dots .owl-dot span{
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+.home-slider .owl-theme .owl-dots .owl-dot.active span{
+  background: #ffffff;
+}
 /* End Slider */
 
 /* Pesan Tiket */
 .ticket-search {
   position: absolute;
   width: 100%;
-  bottom: -64px;
+  bottom: -112px;
   z-index: 999;
 }
 .ticket-search .nav-tabs{
@@ -268,6 +303,72 @@ h2.section-title{
 .ticket-search .tab-content{
   padding: 20px;
 }
+.ticket-search label{
+  font-weight: 600;
+}
+.ticket-search .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+.ticket-search .form-control,
+.ticket-search .custom-select{
+  border-radius: 0px;
+  border: none;
+  font-size: 13px;
+  height: 40px;
+}
+.ticket-search .form-control:hover,
+.ticket-search .custom-select:hover{
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.ticket-search input[type="date"]{
+  padding: 7px 0px 7px 48px;
+  font-size: 12px;
+}
+.ticket-search .icon{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 18px;
+  color: #00abc5;
+}
+.ticket-search .fa-calendar.icon{
+  color: #808080;
+}
+.ticket-search .icon-before{
+  position: absolute;
+  top: 44px;
+  left: 8px;
+}
+.ticket-search .custom-checkbox{
+  display: inline-block;
+  margin-left: 10px;
+}
+.ticket-search .form-select{
+  display: table-cell;
+  padding: 0px 10px;
+}
+.ticket-search .btn-blue{
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  height: 40px;
+  background: #00abc5;
+}
+.ticket-search .btn-blue:hover{
+  background: #808080;
+}
+/* .ticket-search .custom-select{
+  background-image: url('../img/navigation.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  display: inline-block;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+} */
 /* End Pesan Tiket */
 
 /*  Apps Banner*/
